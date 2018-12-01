@@ -1,16 +1,73 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.bc01dd37-7414-4ec2-9773-a5b45fb5ac92",
       "was_cloned": false,
       "merge": {
-        "skillManifest": {
+        "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "ask-custom-StatesQuiz"
+                "uri": "ask-custom-quiz-game-default"
               }
             }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "0369740ad9683203140eac23dafa6451"
+        },
+        "interactionModel": {
+          "en-GB": {
+            "eTag": "5a5359eb723d8ec60fa904f49b546edc"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:344944160118:function:ask-custom-quiz-game-default",
+            "functionName": "arn:aws:lambda:us-east-1:344944160118:function:ask-custom-quiz-game-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "a99d714b-b9f9-4531-bc89-441a312264c9"
+          }
+        ]
+      }
+    },
+    "personal": {
+      "skill_id": "amzn1.ask.skill.071ec114-8f63-464f-a5ef-74528204aad3",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-traffic-signals-quiz-personal"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "b988b038b4fe62f539d7ab64876261bf"
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:557741378355:function:ask-custom-traffic-signals-quiz-personal",
+            "functionName": "arn:aws:lambda:us-east-1:557741378355:function:ask-custom-traffic-signals-quiz-personal",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "7acd1305-a44e-4c5d-956f-599f0075c5be"
+          }
+        ],
+        "interactionModel": {
+          "en-GB": {
+            "eTag": "5a5359eb723d8ec60fa904f49b546edc"
           }
         }
       }

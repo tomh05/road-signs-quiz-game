@@ -2,23 +2,29 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
-          "summary": "Test your knowledge of the US states and their capitals.",
+        "en-GB": {
+          "summary": "Test your knowledge of UK traffic signs.",
           "examplePhrases": [
-            "Alexa, open States Quiz",
-            "Alexa, play States Quiz"
+            "Alexa, open Traffic Signs Quiz",
+            "Alexa, launch Traffic Signs Quiz",
+            "Alexa, start Traffic Signs Quiz"
           ],
           "keywords": [
             "quiz",
             "games",
-            "geography"
+            "road",
+            "driving",
+            "signs",
+            "traffic signs",
+            "road signs",
+            "traffic"
           ],
-          "name": "States Quiz",
-          "description": "Test your knowledge of the US states and their capitals.\n\nStates Quiz provides a fun way to keep your U.S. geography skills sharp.\n\nTo start, just say \"Alexa, launch States Quiz\" or \"Alexa, open States Quiz\" to start the game\".\n\nAt anytime, you can stop the game by saying \"Alexa, stop\""
+          "name": "Traffic Signs Quiz",
+          "description": "How well do you know your UK traffic signs? This skill will test you on a selection of official road traffic signals. You will need a device with a screen to play, or view the image cards on your Alexa companion app. \n\nTo start, just say \"Alexa, launch Traffic Signs Quiz\". At anytime, you can quit the game by saying \"Alexa, exit\""
         }
       },
-      "isAvailableWorldwide": true,
-      "testingInstructions": "Include your testing instruction (if any) here",
+      "isAvailableWorldwide": false,
+      "testingInstructions": "No special testing tools needed.",
       "category": "KNOWLEDGE_AND_TRIVIA",
       "distributionCountries": []
     },

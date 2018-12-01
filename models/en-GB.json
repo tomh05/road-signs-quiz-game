@@ -1,0 +1,301 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "traffic signs quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "samples": [
+                        "{RoadSign}",
+                        "it's {RoadSign}",
+                        "it means {RoadSign}",
+                        "is it {RoadSign}"
+                    ],
+                    "slots": [
+                        {
+                            "name": "RoadSign",
+                            "type": "ROAD_SIGN",
+                            "samples": []
+                        }
+                    ]
+                },
+                {
+                    "name": "QuizIntent",
+                    "samples": [
+                        "start a quiz",
+                        "start a quiz game",
+                        "and start a quiz",
+                        "and quiz me",
+                        "for a quiz",
+                        "a quiz"
+                    ],
+                    "slots": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "ROAD_SIGN",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "side winds",
+                                "synonyms": [
+                                    "winds from the side"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "one way traffic",
+                                "synonyms": [
+                                    "one way only",
+                                    "one way",
+                                    "one way street"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "no stopping",
+                                "synonyms": [
+                                    "stopping prohibited",
+                                    "stopping forbidden",
+                                    "do not stop"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "no waiting",
+                                "synonyms": [
+                                    "waiting prohibited",
+                                    "waiting forbidden",
+                                    "do not wait"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "no overtaking",
+                                "synonyms": [
+                                    "overtaking is forbidden",
+                                    "don't overtake",
+                                    "do not overtake"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "no left turn",
+                                "synonyms": [
+                                    "cannot turn left",
+                                    "left turn forbidden",
+                                    "can't turn left"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "no motor vehicles",
+                                "synonyms": [
+                                    "motor vehicles forbidden"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "end of minimum speed",
+                                "synonyms": [
+                                    "end of 30 miles per hour minimum speed",
+                                    "minimum speed end"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "minimum speed",
+                                "synonyms": [
+                                    "minimum speed 30 miles per hour",
+                                    "30 miles per hour minimum speed",
+                                    "minimum speed is 30"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "national speed limit",
+                                "synonyms": [
+                                    "the national speed limit now applies"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "no cycling",
+                                "synonyms": [
+                                    "no bicycles",
+                                    "no cyclists",
+                                    "cycling is forbidden"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bicycles only",
+                                "synonyms": [
+                                    "cyclists only",
+                                    "cycles only",
+                                    "only for bicycles",
+                                    "only bicycles"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "level crossing",
+                                "synonyms": [
+                                    "level crossing with gate",
+                                    "a rail crossing",
+                                    "a level crossing"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "riverbank",
+                                "synonyms": [
+                                    "river bank warning sign",
+                                    "river side",
+                                    "quayside"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "roundabout",
+                                "synonyms": [
+                                    "roundabout ahead",
+                                    "a roundabout"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "slippery road",
+                                "synonyms": [
+                                    "danger of skidding",
+                                    "road is slippery",
+                                    "slippery road"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "uneven road",
+                                "synonyms": [
+                                    "uneven surface",
+                                    "bumpy road"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "no entry",
+                                "synonyms": [
+                                    "no entry to vehicles"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "keep left",
+                                "synonyms": [
+                                    "stay left",
+                                    "keep to the left"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mini roundabout"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "crossroads"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
